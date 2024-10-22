@@ -17,3 +17,5 @@ def count_word_occurrences():
 
 # Run the program
 count_word_occurrences()
+if __name__ == '__main__':
+    count_word_occurrences()
