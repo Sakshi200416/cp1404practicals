@@ -1,5 +1,4 @@
 def count_word_occurrences():
-
     # Ask the user for input
     text = input("Text: ")
 
@@ -14,6 +13,7 @@ def count_word_occurrences():
     longest_word_length = max(len(word) for word in sorted_words)
     for word in sorted_words:
         print(f"{word:<{longest_word_length}} : {word_count[word]}")
+
 
 # Run the program
 count_word_occurrences()
