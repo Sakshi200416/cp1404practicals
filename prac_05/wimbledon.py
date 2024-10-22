@@ -44,6 +44,4 @@ def main():
     print(", ".join(sorted_countries))
 
 
-# Run
-if __name__ == "__main__":
-    main()
+main()
