@@ -1,0 +1,16 @@
+#:kivy 1.11.1
+
+<GreetClearApp>:
+    BoxLayout:
+        orientation: 'vertical'
+
+        Label:
+            id: greeting_label
+
+        Button:
+            text: "Clear"
+            on_press: root.clear_text()
+
+        Button:
+            text: "Greet"
+            on_press: root.greet_user()
