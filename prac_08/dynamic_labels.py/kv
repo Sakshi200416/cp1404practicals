@@ -1,0 +1,17 @@
+from kivy.app import App
+from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.label import Label
+
+class DynamicLabelApp(App):
+    def build(self):
+        names_list = ["Alice", "Bob", "Charlie", "David"]
+
+        layout = BoxLayout(orientation='vertical')
+        for name in names_list:
+            label = Label(text=name)
+            layout.add_widget(label)
+
+        return layout
+
+if __name__ == '__main__':
+    DynamicLabelApp().run()
