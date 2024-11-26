@@ -1,11 +1,7 @@
-# Practical 08
-Kivy App Project
+KV Lang File Type Support
+=========================
 
-This repository contains Kivy-based Python applications demonstrating various UI concepts and functionalities.
-
-Project Structure:
-
-dynamic_labels.py: A simple app that dynamically creates labels from a list of names.
-miles_to_km.py: A miles to kilometers converter app with a user-friendly interface.
-box_layout_demo.py: A BoxLayout-based app with "Greet" and "Clear" buttons.
-squaring.py: A basic square calculator app.
+* Download this file https://github.com/Zen-CODE/kivybits/blob/master/IDE/PyCharm_kv_completion.jar?raw=true
+* On Pycharm’s main menu, click "File"-> "Import" (or Import Settings)
+* Select this file and PyCharm will present a dialog with filetypes ticked. Click OK.
+* You are done. Restart PyCharm.
