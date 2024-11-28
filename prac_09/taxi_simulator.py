@@ -6,12 +6,7 @@ MENU = "q)uit, c)hoose taxi, d)rive"
 
 
 def main():
-    """Write a taxi simulator program that uses your Taxi and SilverServiceTaxi
-    classes. Each time, until they quit:
-    The user should be presented with a list of available taxis and get to
-    choose one. Then they should say how far they want to drive.
-    At the end of each trip, show them the price and add it to their bill.
-    """
+
     total_bill = 0
     taxis = [Taxi("Prius", 100), SilverServiceTaxi("Limo", 100, 2),
              SilverServiceTaxi("Hummer", 200, 4)]
