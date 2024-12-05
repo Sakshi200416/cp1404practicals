@@ -21,8 +21,8 @@ Reviewing others' code broadened my perspective on different coding styles and h
 
 # Good Code Reviews
 
-[Link to PR 1] Provided detailed feedback on code structure, readability, efficiency, and suggested improvements.
-[Link to PR 2] Focused on testing strategy, suggesting additional test cases and improvements.
+ Provided detailed feedback on code structure, readability, efficiency, and suggested improvements.
+Focused on testing strategy, suggesting additional test cases and improvements.
 # Practicals
 
 Regarding the practical tasks overall, what would you change if you were in charge of the subject?
